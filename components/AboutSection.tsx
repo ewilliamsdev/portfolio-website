@@ -1,14 +1,32 @@
 import React from "react";
 
-const skills = [
+const embedded_skills = [
     { skill: "C++" },
-    { skill: "C#" },
     { skill: "Python" },
-    { skill: "JavaScript" },
+    { skill: "MATLAB" },
+    { skill: "Linux" },
+  ];
+
+const frontend_skills = [
     { skill: "Next.js" },
-    { skill: "Node.js" },
-    { skill: "React" },
+    { skill: "React.js" },
+    { skill: "TypeScript" },
+    { skill: "JavaScript" },
+    { skill: "HTML5" },
+    { skill: "CSS3" },
     { skill: "Tailwind CSS" },
+    { skill: "C# WPF" },
+  ];
+
+const backend_skills = [
+    { skill: "Node.js" },
+    { skill: "Python" },
+    { skill: "API Integration" },
+  ];
+
+const uiux_skills = [
+    { skill: "Figma" },
+    { skill: "Adobe XD" },
   ];
 
 const AboutSection = () => {
@@ -32,20 +50,45 @@ const AboutSection = () => {
               </a> in 2023 with a BS in Computer Science. Currently pursuing a MS in Computer Science from 
               <a 
                 href="https://www.gatech.edu"
-                className="font-boldcursor-pointer">Georgia Institute of Technology
+                className="font-bold cursor-pointer"> Georgia Institute of Technology
               </a>.
             </p>
             <br />
             <p className="text-xl">
-              For fun, I enjoy traveling and learning new languages. I believe that challenging myself with hobbies such as these provide me with new experiences and always being a student of the world! 🌎
+              For fun, I enjoy photography, travel, and learning new languages. I believe that challenging myself with hobbies such as these provide me with new experiences and always being a student of the world! 🌎
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">My Skills</h1>
+            <h3 className="text-red-500 text-center text-xl font-bold mb-6 md:text-left">Embedded Programming</h3>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item) => {
+              {embedded_skills.map((item) => {
                 return (
-                  <p key={item.skill} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold">{item.skill}</p>
+                  <p key={item.skill} className="bg-red-200 px-4 py-2 mr-2 mt-2 text-red-500 rounded font-semibold">{item.skill}</p>
+                );
+              })}
+            </div>
+            <h3 className="text-orange-500 text-center text-xl font-bold mb-6 md:text-left">Frontend Development</h3>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {frontend_skills.map((item) => {
+                return (
+                  <p key={item.skill} className="bg-orange-200 px-4 py-2 mr-2 mt-2 text-orange-500 rounded font-semibold">{item.skill}</p>
+                );
+              })}
+            </div>
+            <h3 className="text-blue-500 text-center text-xl font-bold mb-6 md:text-left">Backend Development</h3>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {backend_skills.map((item) => {
+                return (
+                  <p key={item.skill} className="bg-blue-200 px-4 py-2 mr-2 mt-2 text-blue-500 rounded font-semibold">{item.skill}</p>
+                );
+              })}
+            </div>
+            <h3 className="text-violet-500 text-center text-xl font-bold mb-6 md:text-left">UI/UX Design</h3>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {uiux_skills.map((item) => {
+                return (
+                  <p key={item.skill} className="bg-violet-200 px-4 py-2 mr-2 mt-2 text-violet-500 rounded font-semibold">{item.skill}</p>
                 );
               })}
             </div>
