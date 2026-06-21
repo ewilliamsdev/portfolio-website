@@ -8,14 +8,14 @@ const projects = [
       name: "Portfolio",
       description: "Software Engineer Portfolio for Eric Williams.",
       image: "/name-logo.png",
-      github: "https://github.com/imericwilliams/portfolio-website",
-      link: "https://github.com/imericwilliams/portfolio-website",
+      github: "https://github.com/ewilliamsdev/portfolio-website",
+      link: "https://github.com/ewilliamsdev/portfolio-website",
     },
     {
       name: "Map My Escape",
       description: "An app to keep users informed about environmental risks in their local area, with a focus on fast and efficient communication.",
       image: "/map-my-escape-logo.png",
-      github: "https://github.com/imericwilliams/map-my-escape",
+      github: "https://github.com/ewilliamsdev/map-my-escape",
       link: "https://kazitasin07.wixsite.com/mapmyescape",
     },
   ];

@@ -26,10 +26,14 @@ const AboutSection = () => {
             </p>
             <br />
             <p className="text-xl">
-              I have 4 years of experience in software development (full-time and internships).Graduated from 
+              I have experience in embedded programming, frontend development, backend development, and UI/UX design. Graduated from 
               <a 
                 href="https://www.gmu.edu/" className="font-bold cursor-pointer"> George Mason University
-              </a> in 2023 with a BS in Computer Science. 
+              </a> in 2023 with a BS in Computer Science. Currently pursuing a MS in Computer Science from 
+              <a 
+                href="https://www.gatech.edu"
+                className="font-boldcursor-pointer">Georgia Institute of Technology
+              </a>.
             </p>
             <br />
             <p className="text-xl">

@@ -11,10 +11,10 @@ const Footer = () => {
           <Link href="/">© 2024 Eric Williams</Link>
             </div>
             <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-              <Link href={"https://github.com/imericwilliams"} target="_blank">
+              <Link href={"https://github.com/ewilliamsdev"} target="_blank">
                 <BsGithub size={30} className="hover:-translate-y-1 transition-transform cursor-pointer text-accent-color text-opacity-60"/>
               </Link>
-              <Link href={"https://www.linkedin.com/in/imericwilliams/"} target="_blank">
+              <Link href={"https://www.linkedin.com/in/ewilliamsdev/"} target="_blank">
                 <BsLinkedin size={30} className="hover:-translate-y-1 transition-transform cursor-pointer text-accent-color text-opacity-60"/>
               </Link>
             </div>

@@ -9,7 +9,7 @@ const IntroSection = () => {
     p-4 md:p-8 lg:p-12 overflow-hidden">
         <div className="flex flex-col text-center items-center justify-center sm:py-16 md:pt-32 md:pb-16 md:flex-row md:space-x-4 md:text-left">
           <Link
-            href={"https://www.linkedin.com/in/imericwilliams/"}>
+            href={"https://www.linkedin.com/in/ewilliamsdev/"}>
             <Image 
               src="/headshot-suit.jpg"
               width={325}
