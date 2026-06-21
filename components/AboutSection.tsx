@@ -60,32 +60,32 @@ const AboutSection = () => {
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">My Skills</h1>
-            <h3 className="text-red-500 text-center text-xl font-bold mb-6 md:text-left">Embedded Programming</h3>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+            <h3 className="text-red-500 text-center text-xl font-bold mb-3 md:text-left">Embedded Programming</h3>
+            <div className="flex flex-wrap flex-row justify-center z-10 mb-6 md:justify-start">
               {embedded_skills.map((item) => {
                 return (
                   <p key={item.skill} className="bg-red-200 px-4 py-2 mr-2 mt-2 text-red-500 rounded font-semibold">{item.skill}</p>
                 );
               })}
             </div>
-            <h3 className="text-orange-500 text-center text-xl font-bold mb-6 md:text-left">Frontend Development</h3>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+            <h3 className="text-orange-500 text-center text-xl font-bold mb-3 md:text-left">Frontend Development</h3>
+            <div className="flex flex-wrap flex-row justify-center z-10 mb-6 md:justify-start">
               {frontend_skills.map((item) => {
                 return (
                   <p key={item.skill} className="bg-orange-200 px-4 py-2 mr-2 mt-2 text-orange-500 rounded font-semibold">{item.skill}</p>
                 );
               })}
             </div>
-            <h3 className="text-blue-500 text-center text-xl font-bold mb-6 md:text-left">Backend Development</h3>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+            <h3 className="text-blue-500 text-center text-xl font-bold mb-3 md:text-left">Backend Development</h3>
+            <div className="flex flex-wrap flex-row justify-center z-10 mb-6 md:justify-start">
               {backend_skills.map((item) => {
                 return (
                   <p key={item.skill} className="bg-blue-200 px-4 py-2 mr-2 mt-2 text-blue-500 rounded font-semibold">{item.skill}</p>
                 );
               })}
             </div>
-            <h3 className="text-violet-500 text-center text-xl font-bold mb-6 md:text-left">UI/UX Design</h3>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+            <h3 className="text-violet-500 text-center text-xl font-bold mb-3 md:text-left">UI/UX Design</h3>
+            <div className="flex flex-wrap flex-row justify-center z-10 mb-6 md:justify-start">
               {uiux_skills.map((item) => {
                 return (
                   <p key={item.skill} className="bg-violet-200 px-4 py-2 mr-2 mt-2 text-violet-500 rounded font-semibold">{item.skill}</p>
