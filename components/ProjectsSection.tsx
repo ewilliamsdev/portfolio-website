@@ -7,7 +7,7 @@ const projects = [
     {
       name: "Portfolio",
       description: "Software Engineer Portfolio for Eric Williams.",
-      image: "/portfolio-github.png",
+      image: "/name-logo.png",
       github: "https://github.com/imericwilliams/portfolio-website",
       link: "https://github.com/imericwilliams/portfolio-website",
     },
