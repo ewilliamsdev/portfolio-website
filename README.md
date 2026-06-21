@@ -1,6 +1,6 @@
 # Software Engineer Portfolio Website 💻
 
-Visit the site here → ((Under Construction))
+Visit the site here → https://www.ericwilliams.io/
 
 ### Demo
 
