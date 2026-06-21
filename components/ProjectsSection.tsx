@@ -14,7 +14,7 @@ const projects = [
     {
       name: "Map My Escape",
       description: "An app to keep users informed about environmental risks in their local area, with a focus on fast and efficient communication.",
-      image: "/map-my-escape.png",
+      image: "/map-my-escape-logo.png",
       github: "https://github.com/imericwilliams/map-my-escape",
       link: "https://kazitasin07.wixsite.com/mapmyescape",
     },
